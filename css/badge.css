@@ -1,0 +1,20 @@
+.skill-flex{
+    margin-top: 10em;
+    display: flex;
+    flex-direction:row;
+  }
+  
+  .skill{
+    background-color: #121217;
+      width: 100%;
+      max-width:200px;
+      height: auto;
+      margin: 0.5em;
+      border-radius: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .skill-flex{
+    flex-direction: column;
+  }
+  }

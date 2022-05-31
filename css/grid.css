@@ -1,10 +1,51 @@
 .grid-container {
   display: grid;
-  grid-template-columns: auto-fit, minmax(240px,1fr);
+  grid-template-columns: auto;
+  /* grid-template-columns: auto-fit, minmax(240px,1fr); */
   grid-template-rows: auto;
   justify-items: center;
 }
 
 .grid-item {
     justify-self: center;
+    align-self: center;
+}
+
+.hub{
+  margin-top: 10em;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+
+.text-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.badge-text{
+  padding-top: 10px;
+  margin-left: 10px;
+
+}
+
+.badge-text2{
+
+  padding-top: 10px;
+  margin-left: 10px;
+  opacity: .54;
+  text-align: justify;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  height: 5em;
+  background-color: #121217;
+}
+
+.badge{
+  max-width: 50px;
+  height: 50px;
 }

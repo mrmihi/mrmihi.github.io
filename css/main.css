@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #000000;
     color: white;
     font-size: 17px;
     font-family: monospace;
@@ -26,19 +26,29 @@ body{
     border-right: 3px solid rgb(62, 216, 255);
     font-size: 30px;
     font-family: monospace;
-    color: rgb(62, 216, 255);
+    color: #008fff;
+    /* color: rgb(62, 216, 255); */
 }
 
 .about-long{
-    /* max-width: 1200px; */
     width: 60vw;
 }
+
+.reach{
+    width: 60vw;
+    margin-top: 2em;
+}
+
+
 @media only screen and (max-width: 600px) {
   #about-me{
     width: 50vw;
     margin: auto;
   }
+  
   .text, .name, #greet{
     font-size: 15px;
   }
+
+  
 }
