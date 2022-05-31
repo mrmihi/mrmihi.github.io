@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto-fit, minmax(240px,1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.grid-item {
+    justify-self: center;
+}

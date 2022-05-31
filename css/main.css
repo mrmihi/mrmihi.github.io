@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: monospace;
+}
+#about-me{
+    color: white;
+    max-width: 1200px;
+    min-width: 60vw;
+    padding-top: 5rem;
+}
+
+.name,#greet{
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#greet{
+    font-size: 27px; 
+    height: 1.5em;
+}
+.text{
+    color: white;
+    border-right: 3px solid rgb(62, 216, 255);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(62, 216, 255);
+}
+
+.about-long{
+    /* max-width: 1200px; */
+    width: 60vw;
+}
+@media only screen and (max-width: 600px) {
+  #about-me{
+    width: 50vw;
+    margin: auto;
+  }
+  .text, .name, #greet{
+    font-size: 15px;
+  }
+}
