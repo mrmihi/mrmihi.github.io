@@ -1,20 +1,40 @@
-.skill-flex{
-    margin-top: 10em;
-    display: flex;
-    flex-direction:row;
-  }
-  
-  .skill{
-    background-color: #121217;
-      width: 100%;
-      max-width:200px;
-      height: auto;
-      margin: 0.5em;
-      border-radius: 10px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-  .skill-flex{
-    flex-direction: column;
-  }
-  }
+body{
+  background-color: black;
+}
+.home{
+  width:60vw;
+  margin: auto;
+  margin-top: 1rem;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+}
+.grid-parent{
+  margin-top: 10em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 210px));
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+}
+
+.grid-item{
+  background-color: #121217;
+}
+.skill{
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
